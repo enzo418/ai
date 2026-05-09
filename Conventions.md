@@ -23,6 +23,11 @@
 * No direct queries in services; they belong in repositories
 * No magic strings; everything goes in constants or enums
 
+## Communication
+
+* Use the same language to communicate between system (DTO/Contracts/Interfaces) an use propper mapping
+* Use a consistent error format between user-facing system and backend. 
+
 ## Log
 
 * Don't overlog
