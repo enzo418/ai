@@ -22,3 +22,9 @@
 * No business logic in controllers
 * No direct queries in services; they belong in repositories
 * No magic strings; everything goes in constants or enums
+
+## Log
+
+* Don't overlog
+* Can it be solved by engineering -> Log Error.
+* It's a external error (e.g. provider, client config) that impairs the flow -> Warning
