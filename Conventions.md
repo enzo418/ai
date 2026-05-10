@@ -1,10 +1,5 @@
 # Conventions
 
-## Stack
-
-* .NET 8, C#, Entity Framework Core
-* React + TypeScript on the frontend
-
 ## Patterns
 
 * Services → Interfaces → Repositories, never direct access
@@ -33,3 +28,10 @@
 * Don't overlog
 * Can it be solved by engineering -> Log Error.
 * It's a external error (e.g. provider, client config) that impairs the flow -> Warning
+* Do not log messages with variable data on the message, use structured loggin.
+* Use event wide logging
+
+## Testing
+
+* Use unit testing when possible
+* Test a few good examples, only if needed can also validate a negative case.
